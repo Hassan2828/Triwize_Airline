@@ -1,0 +1,135 @@
+/* Container.css */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .vertical-sidebar{
+    width: 49px;
+    height: 378px;
+    top: 670.95px;
+    left: 27px;
+    gap: 40px;
+  }
+  
+  .text-section {
+    margin-bottom: 15px;
+  }
+  
+  .first-paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .second-paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .third-paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .quote-section {
+    width: 1075px;
+    height: 192px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .quote {
+    height: 192px;
+    top: 417px;
+    left: 77px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55.2px;
+    color: #121416;
+    font-style: italic;
+  }
+  
+  .fourth-paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .fifth-paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .heading-section {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sixth-paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .list-section {
+    width: 679px;
+    top: 126px;
+    left: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #121416;
+    margin-left: 100px;
+  }
+  
+  .list {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .list li {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+  }
+  
+  .seventh-paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer__sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right,
+  .footer-end {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 10px;
+  }
+  
+  .comment-section .view-btn {
+    background: #311355;
+    width: 1080px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+  }

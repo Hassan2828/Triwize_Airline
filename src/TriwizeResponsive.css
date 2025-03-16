@@ -1,0 +1,17 @@
+@media (max-width : 390px){
+    .Triwize-header{
+        width: 390px;
+        height: 63px;
+    }
+    .nav{
+        display: unset;
+    }
+    .banner-top{
+        width: 390px;
+        height: 63px;
+        top: 95px;
+        justify-content: space-between;
+        padding: 20px;
+
+    }
+}

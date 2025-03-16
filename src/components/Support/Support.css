@@ -1,0 +1,119 @@
+.support {
+    width: 1242px;
+    height: 291px;
+    gap: 36px;
+    margin: 20px auto 0px;
+    display: flex;
+  }
+  
+  .support-left {
+    width: 602px;
+    height: 291px;
+    border-radius: 8px;
+    padding: 36px;
+    background-image: url('../../assets/CallUs/ManOffice.jpeg'),  linear-gradient(180deg, rgb(252, 113, 0) 0%, rgba(166, 77, 255, 0.763) 100%);
+    ;
+    background-position:  right top;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+  
+  .support-content {
+    width: 475px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+  
+  .support-icon {
+    display: flex;
+    align-items: center;
+    width: 318.18px;
+    height: 70px;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 10px;
+    background: #FFFFFF;
+    color: #A64DFF;
+    font-size: 30px;
+  }
+  
+  .support-number p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.8px;
+    color: #A64DFF;
+    margin-left: 10px; /* Added margin for spacing */
+    margin-bottom: 0 !important;
+  }
+  
+  .support-message { /* Fixed typo here */
+    width: 412.51px;
+    height: 45.26px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27.6px;
+    color: #FFFFFF;
+  }
+  
+  .btn-learn,
+  .btn-learn-2 {
+    width: 130px;
+    height: 42px;
+    border-radius: 8px;
+    padding: 8px;
+    color: #FFFFFF;
+    background: #000000;
+    box-shadow: 10px 8px 24px 0px #1F171552;
+    border: none;
+    outline: none;
+    font-family: Helvetica;
+    cursor: pointer;
+  }
+  
+  .support-right {
+    width: 602px;
+    height: 290px;
+    border-radius: 8px;
+    padding: 36px;
+    background: #371855;
+    background-image: url('../../assets/CallUs/ellipse.png');
+    background-repeat: no-repeat;
+  }
+  
+  .support-right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  
+  .support-right-content {
+    width: 255.16px;
+    gap: 15px;
+  }
+  
+  .support-right-content p {
+    font-weight: 400;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+  
+  .support-right-content span {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+  
+  .Earn-more {
+    width: 255.16px;
+    height: 41px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }

@@ -1,0 +1,23 @@
+.work-container{
+    width: 1242px;
+    height: 264px;
+    border-radius: 8px;
+    padding: 28px;
+    color: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    margin: 20px auto 0px;
+}
+.work-content{
+    width: 1176px;
+    height: 195px;
+    gap: 40px;
+}
+.work-heading{
+    width: 1176px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #313131;
+    margin-bottom: 30px;
+}

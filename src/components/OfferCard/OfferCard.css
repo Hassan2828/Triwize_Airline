@@ -1,0 +1,192 @@
+*{
+    font-family: Helvetica;
+}
+.empty{
+    margin-top: 150px;
+}
+.Offer-container{
+    width: 1242px;
+    height: 482.21px;
+    border-radius: 8px;
+    padding: 28px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    margin: 20px auto 0px;
+    font-family: Helvetica;
+}
+.card-container{
+    width: 1176.77px;
+    height: 419.43px;
+    gap: 40px;
+    font-family: Helvetica;
+}
+.card-container h2{
+    width: 1176.77px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #313131;
+    font-family: Helvetica;
+}
+.offercard-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1176.77px;
+    height: 338.43px;
+    gap: 32px;
+    font-family: Helvetica;
+}
+.offer-card{
+    width: 370.92px;
+    height: 338.43px;
+    font-family: Helvetica;
+    background: linear-gradient(180deg, rgba(26, 15, 60, 0.6) -51.04%, rgba(62, 0, 247, 0.6) 33.87%, rgba(121, 80, 242, 0.6) 91.51%);
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.offer-card img{
+    margin-top: 40px;
+}
+.offer-card-2{
+    width: 370.92px;
+    height: 338.43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(0, 129, 71, 0.8) 0%, rgba(35, 184, 117, 0.8) 51%, rgba(23, 71, 49, 0.8) 100%);
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    font-family: Helvetica;
+}
+.offer-content{
+    width: 299px;
+    height: 280.28px;
+    gap: 36px;
+    font-family: Helvetica;
+}
+.content-head{
+    width: 320.97px;
+    height: 72.63px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+}
+.save{
+    padding-top: 20px;
+    width: 300.97px;
+    height: 51.67px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 30px;
+    font-family: Helvetica;
+}
+.off{
+    padding-top: 20px;
+    width: 280px;
+    height: 51.91px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78.66px;
+    color: #F9C22D !important;
+    font-family: Helvetica;
+}
+.save p{
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: thin;
+    background: #E24041;
+    padding: 4px
+}
+.save big{
+    font-weight: 700;
+    font-size: x-large;
+}
+.offer-card p{
+    color: #FFFFFF;
+}
+.first-booking{
+    width: 246.55px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.5px;
+    padding-top: 18px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    padding-top: 45px;
+}
+.offercard-container .btn-learn{
+    width: 130px;
+    height: 42px;
+    border-radius: 8px;
+    padding: 8px;
+    gap: 10px;
+    color: #FFFFFF;
+    background: #000000;
+    box-shadow: 10px 8px 24px 0px #1F171552;
+    border: none;
+    outline: none;
+    font-family: Helvetica;
+}
+.content-head-3{
+    width: 327.79px;
+    height: 79.67px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+}
+.span-head{
+    width: 320px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Helvetica;
+}
+.onwards p{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 40px;
+    width: 292.05px;
+    height:40.91px;
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 700;
+    top: 115.67px;
+    border: 1px dotted #FFFFFF;
+    padding: 8px 8px ;
+    color: #FFFFFF;
+    font-family: Helvetica;
+}
+.cardpara-3{
+    width: 292.05px;
+    height: 42.49px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.5px;
+    color: #FFFFFF;
+    font-family:Helvetica Light;
+    font-family: Helvetica;
+}
+.offer-card-3{
+    width: 370.92px;
+    height: 338.43px;
+    font-family: Helvetica;
+    background: linear-gradient(180.21deg, rgba(73, 7, 70, 0.8) -2.9%, rgba(173, 53, 135, 0.56) 47.43%, rgba(200, 9, 95, 0.8) 99.82%);
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}

@@ -1,0 +1,141 @@
+.footer-banner {
+    width: 1440px;
+    height: 231px;
+    justify-content: space-between;
+    padding: 28px 98px 28px 98px;
+    background: #000000;
+  }
+  
+  .footer-banner-content {
+    width: 1243.25px;
+    height: 175px;
+    gap: 195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Triwize-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116.16px;
+    height: 42px;
+    font-weight: 600;
+    size: 16px;
+    line-height: 19.5px;
+  }
+  
+  .footer-middle {
+    width: 495px;
+    padding-left: 80px;
+  }
+  
+  .footer-middle h3 {
+    width: 495px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27.6px;
+    color: #F6F7EF;
+    padding-left: 40px;
+  }
+  
+  .footer-middle p {
+    padding-left: 10px;
+    width: 495px;
+    height: 14px;
+    font-weight: 400;
+    line-height: 13.8px;
+    font-size: 12px;
+    display: inline;
+    align-items: center;
+    color: #F6F7EF;
+  }
+  
+  .email-box {
+    width: 495px;
+    height: 56px;
+  }
+  .text{
+    display: flex;
+  }
+  
+  .text .in {
+    width: 386px;
+    color: #F6F7EF;
+    border: 1px solid #0000003B;
+    background-color: #fff; 
+    color: #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .email-box p {
+    width: 495px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.8px;
+    align-items: center;
+    color: #F6F7EF;
+    padding-left: 80px;
+  }
+  
+  .follower {
+    width: 250px;
+    height: 83px;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .follower p {
+    width: 100%;
+    height: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #F6F7EF;
+    padding-left: 60px;
+  }
+  
+  .social-media-icon {
+    min-width: max-content;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: #FFFFFF; /* Default color for the icons */
+  }
+  
+  /* Hover state for the social media icons */
+  .social-media-icon a .social-icon:hover {
+    color: #A64DFF; /* Purple color on hover */
+  }
+  
+  .social-icon {
+    color: #FFFFFF; /* Default color for the icons */
+    transition: color 0.3s ease; /* Smooth transition for the hover effect */
+  }
+  
+.subscribe-btn{
+  width: 95px;
+  height: 56px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  gap: 10px;
+  background: #EBD9FF;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: #A64DFF;
+}

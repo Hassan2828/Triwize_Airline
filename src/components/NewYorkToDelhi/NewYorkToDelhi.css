@@ -1,0 +1,125 @@
+.new-york{
+    width: 1242px;
+    height: 553px;
+    border-radius: 8px;
+    padding: 28px;
+    gap: 24px;
+    background: #E5E5E5;
+    margin: 100px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-container{
+    width: 250px;
+    height: 489px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 28px;
+}
+.york-to-delhi{
+    width: 250px;
+    height: 103px;
+    gap: 8px;
+}
+.york-to-delhi h3{
+    width: 250px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27.6px;
+    color: #313131;
+}
+.york-to-delhi h6{
+    width: 250px;
+    height: 17px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16.97px;
+    color: #313131;
+}
+.york-to-delhi p{
+    width: 250px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.8px;
+    color: #313131;
+}
+.green-love img{
+  margin-top: 20px;
+}
+.head-set{
+    width: 250px;
+    height: 26px;
+    gap: 8px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.head-set p{
+    width: 125px;
+    height: 14px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.8px;
+    color: #313131;
+    display: flex;
+    margin-top: 4px;
+}
+.triwize-contain{
+    width: 250px;
+    height: 94px;
+    gap: 8px;
+}
+.why-triwize{
+    width: 250px;
+    height: 126px;
+    border-radius: 8px;
+    gap: 4px;
+}
+.why-triwize h2{
+    width: 250px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27.6px;
+    color: #313131;
+}
+
+.call-component{
+    width: 903px;
+    height: 497px;
+    border-radius: 8px;
+    padding: 28px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+}
+.call-component h3{
+    width: 157px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #313131;
+}
+.form-container{
+    width: 847px;
+    height: 272px;
+    gap: 16px;
+}
+.row{
+    margin-top: 20px !important;
+}
+.col-12 button{
+    margin-top: 20px;
+    width: 847px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    background: #A64DFF;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    outline: none;
+    border: none;
+}

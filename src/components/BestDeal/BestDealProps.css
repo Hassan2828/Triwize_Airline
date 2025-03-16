@@ -1,0 +1,73 @@
+.best-deals{
+    width: 1242px;
+    height: 740px;
+    border-radius: 8px;
+    padding: 28px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    margin: 20px auto 0px;
+}
+.deals-container{
+    width: 1176.77px;
+    min-height: max-content;
+    gap: 40px;
+}
+.deal-heading{
+    width: 1176.77px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+}
+.deal-heading p{
+     width: 1176.77px;
+     height: 41px;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 46px;
+     color: #313131;
+}
+.ticket-details{
+    width: 1178px;
+    height: 534.56px;
+    gap: 28px;
+    padding-top: 10px;
+}
+.one-way{
+    display: flex;
+    width: 569px;
+    height: 38.56px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.one-way p{
+    height: 18px;
+    gap: 48px;
+}
+.ticket-info-one{
+    width: 1178px;
+    height: 440px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticket-info-box{
+    width: 1178px;
+    height: 468px;
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+.condition p{
+    width: 1167px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12.29px;
+    color: #525252;
+    font-family:Helvetica light;
+    margin-top: 70px;
+    padding-top: 20px;
+}

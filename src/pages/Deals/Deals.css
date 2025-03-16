@@ -1,0 +1,34 @@
+/* DealsDropdown.css */
+.deals-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 900px;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color:  #FFFFFF;
+    min-width: 794px; 
+    height: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    padding: 15px;
+    right: 0; /* Aligns the dropdown to the right of the button */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    gap: 5px; /* Adds some space between the grid items */
+    border-bottom: 1px solid #F2F2F5;
+    box-shadow: 0px 25px 26px 0px #0000001A;
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px; /* Adjust font size as needed */
+}
+.dropdown-content a:hover {
+    color: #6419DD;
+    background-color: transparent; /* Optional:  background on hover */
+}

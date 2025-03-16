@@ -1,0 +1,122 @@
+
+
+.travel-container{
+  width: 1242px;
+  height: 603px;
+  border-radius: 8px;
+  padding: 28px;
+  color: #FFFFFF;
+  box-shadow: 0px 8px 24px 0px #959DA533;
+  margin: 20px auto 0px;
+}
+.latest-container{
+  width: 1180px;
+  height: 552px;
+  gap: 40px;
+}
+.latest-container h3{
+  width: 1176px;
+  height: 42px;
+  gap: 40px;
+  color: #313131;
+}
+.travel-card{
+  width: 100%;
+  height: 470px;
+  gap: 32px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  flex-wrap: wrap;
+}
+
+.travel-container {
+    width: 1242px;
+    height: 603px;
+    border-radius: 8px;
+    padding: 28px;
+    color: #FFFFFF;
+    /* box-shadow: 0px 8px 24px 0px #959DA533; */
+    margin: 20px auto 0px;
+  }
+  
+  .latest-container {
+    width: 1180px;
+    height: 552px;
+    gap: 40px;
+  }
+  
+  .latest-container h3 {
+    width: 1176px;
+    height: 42px;
+    gap: 40px;
+    color: #313131;
+  }
+  
+  .travel-card {
+    width: 1180px;
+    height: 470px;
+    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+
+  }
+  
+  .travel-card-1 {
+    width: 372px;
+    height: 470px;
+    border-radius: 8px;
+    border: 1px;
+    padding: 12px;
+    gap: 21px;
+    color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 8px 24px 0px #959DA51A;
+  }
+  
+  .travel-images img {
+    width: 348px;
+    height: 252px;
+    border-radius: 8px;
+    gap: 10px;
+  }
+  
+  .date-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 348px;
+    height: 22px;
+  }
+  
+  .date-time p {
+    width: 86.14px;
+    height: 22px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 22px;
+    color: #525252;
+    margin-top: 30px;
+  }
+  
+  .travel-heading h3 {
+    margin-top: 30px;
+    width: 348px;
+    height: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20.7px;
+    color: #313131;
+  }
+  
+  .travel-heading p {
+    margin-top: 50px;
+    width: 348px;
+    height: 85px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.16px;
+    color: #525252;
+  }

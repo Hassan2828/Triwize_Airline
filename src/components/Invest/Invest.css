@@ -1,0 +1,66 @@
+.Invest-container-link{
+    text-decoration: none;
+}
+
+.Invest-container{
+    width: 1241px;
+    height: 375px;
+    border-radius: 8px;
+    padding: 36px;
+    gap: 161px;
+    background: linear-gradient(269.37deg, #FFD2AD 35.52%, #FC7300 113.46%);
+    margin: 20px auto 0px;
+    cursor: pointer;
+}
+.Invest-content{
+    width: 1174px;
+    height: 321.58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.invest-content-1{
+    width: 574px;
+    height: 274px;
+    gap: 28px;
+}
+
+.invest-heading p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27.6px;
+}
+.invest-heading .invest{
+    color: #62340D;
+
+}
+.invest-heading .Be-smart{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41.4px;
+    color: #62340D;
+}
+.watch-money{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.58px;
+    color: #62340D;
+}
+.invest-btn{
+    width: 130px;
+    height: 42px;
+    border-radius: 8px;
+    padding: 8px;
+    gap: 10px;
+    background: #000000;
+    color: #FFFFFF;
+    box-shadow: 10px 8px 24px 0px #1F171552;
+    border: none;
+    outline: none;
+}
+.invest-image img{
+    width: 362.3px;
+    height: 321.58px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

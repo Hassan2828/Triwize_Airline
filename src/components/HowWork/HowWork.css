@@ -1,0 +1,40 @@
+.search-destination{
+    width: 1176px;
+    height: 114px;
+    display: flex;
+    justify-content: space-between;
+}
+.work-section1{
+    border-right: 1px solid #313131;
+    width: 318px;
+    height: 107px;
+    gap: 16px;
+    display: flex;
+}
+.work-number p{
+    width: 76px;
+    height: 50.13px;
+    font-weight: 600;
+    line-height: 77.45px;
+    font-size: 64px;
+    color: #EBD9FF;
+    display: flex;
+    align-items: center;
+}
+.search-location h3{
+    width: 226px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20.7px;
+    color: #313131;
+}
+.search-location p{
+    color: #313131;
+    width: 226.25px;
+    height: 85px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.16px;
+    color: #525252;
+}

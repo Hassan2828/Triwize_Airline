@@ -1,0 +1,80 @@
+.unlock{
+    width: 954px;
+    height: min-content;
+    top: -12486px;
+    /* left: -456.25px; */
+    border-radius: 8px;
+    padding: 28px;
+    background: #FFFFFF;
+    display: flex;
+    box-shadow: 0px 4px 20px 0px #6D6D6D33;
+
+}
+.unlock-card{
+    width: 898px;
+    height: 415px;
+    gap: 24px;
+}
+.unlock-container{
+    width: 447px;
+    height: 415px;
+    gap: 24px;
+}
+.unlock-contain{
+    width: 447px;
+    height: 343px;
+    gap: 8px;
+}
+.unlock-sub-container h2{
+    width: 451.05px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32.2px;
+    color: #313131;
+}
+.unlock-sub-container span{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32.2px;
+    color: #FC7300;
+}
+.unlock-sub-container p{
+    width: 442.86px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.16px;
+    color: #525252;
+}
+.form-floating .mb-3{
+    width: 417px;
+    height: 186px;
+    gap: 16px;
+}
+.form-control{
+    font-size: medium;
+    color: #525252;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.col-11 button{
+    width: 110%;
+    height: 56px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    gap: 8px;
+    background: #A64DFF;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+.parashot img{
+    width: 423.87px;
+    height: 335px;
+    /* border: 1px solid #551E8C; */
+}

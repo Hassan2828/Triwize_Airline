@@ -1,0 +1,77 @@
+.Review-section{
+    width: 1241px;
+    height: 299px;
+    gap: 28px;
+    margin: 20px auto 0px;
+}
+.Review-card{
+    width: 395px;
+    height: 299px;
+    border-radius: 8px;
+    padding: 28px;
+    gap: 24px;
+    color: #FFFFFF;
+    border: 1px solid #E5E5E5
+}
+.Review-rating{
+    display: flex;
+    justify-content: space-between;
+    width: 339px;
+    height: 46px;
+}
+.number-rating{
+    width: 107.11px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #313131;
+}
+.google-logo{
+    width: 40px;
+    height: 40.82px;
+}
+.Google-Reviews{
+    margin-top: 30px;
+    width: 339px;
+    height: 178px;
+    gap: 8px;
+}
+.Google-Reviews h3{
+    width: 339px;
+    height: 21px;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 20.7px;
+    color: #313131;
+}
+.message-review h6{
+    width: 348.67px;
+    height: 149px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.16px;
+    color: #525252;
+}
+.message-review h6{
+    color: #525252;
+    width: 348.67px;
+    height: 149px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.16px;
+}
+.message-review span{
+    font-family: Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 21.16px;
+}
+.writer-sign{
+    color: #525252;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 21.16px;
+}

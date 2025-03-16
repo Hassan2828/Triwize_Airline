@@ -1,0 +1,55 @@
+ /* Travelers Styles */
+ .travelers-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 10;
+    width: 250px;
+   }
+   
+   .traveler-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+   }
+   
+   .traveler-controls {
+    display: flex;
+    align-items: center;
+   }
+   
+   .traveler-controls .travelers__btn {
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 5px;
+   }
+   .travelers__btn{
+      background: none;
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      margin: 0 5px;
+   }
+   
+   .traveler-controls span {
+    width: 30px;
+    text-align: center;
+   }

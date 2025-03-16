@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59ec40dd.css",
+    "main.js": "/static/js/main.9cb96f4d.js",
+    "static/media/indiaflag.png": "/static/media/indiaflag.dda45f21e7fe79288097.png",
+    "static/media/Share_img.png": "/static/media/Share_img.aa5d7fdcb5bf8d62c173.png",
+    "static/media/card3.png": "/static/media/card3.1a01a13740efb5b56b01.png",
+    "static/media/card2.png": "/static/media/card2.614393c3aa18dd2a3316.png",
+    "static/media/Travel_img.png": "/static/media/Travel_img.8d48cc685571d0462c12.png",
+    "static/media/cart1.png": "/static/media/cart1.eb8d2dd0cd6d33df4420.png",
+    "static/media/Hydrabad.png": "/static/media/Hydrabad.71264fcefa28f74fdad6.png",
+    "static/media/Mumbai.png": "/static/media/Mumbai.2589dac934e6b65c74e8.png",
+    "static/media/ManOffice.jpeg": "/static/media/ManOffice.d92c512813c37d647bc9.jpeg",
+    "static/media/InvestImg.png": "/static/media/InvestImg.08252f7e13ebc7eb5371.png",
+    "static/media/Delhi.png": "/static/media/Delhi.50e04d5ba7fea7f28a4a.png",
+    "static/media/girlCamera.jpeg": "/static/media/girlCamera.7dc298a80d43fd7c6df9.jpeg",
+    "static/media/BoyCamera.jpeg": "/static/media/BoyCamera.15ac4681cd2228629ae4.jpeg",
+    "static/media/BannerTop.png": "/static/media/BannerTop.8a84a2ccbd0ea9a10b2e.png",
+    "static/media/Help_girl.png": "/static/media/Help_girl.9cf788974e75fac39af1.png",
+    "static/media/Bangalore.jpeg": "/static/media/Bangalore.36c3be7b2d3d5052aecf.jpeg",
+    "static/media/kolkata.jpeg": "/static/media/kolkata.5f83893019d2f89164f7.jpeg",
+    "static/media/PaymentSection.png": "/static/media/PaymentSection.b95c9850610ed5b4cd45.png",
+    "static/media/coin_img.png": "/static/media/coin_img.c564ee6151387b369964.png",
+    "static/media/Pune.png": "/static/media/Pune.acdbeceb20503cf49249.png",
+    "static/media/Ahmendabad.png": "/static/media/Ahmendabad.79f0960ef5e6d3a6a73a.png",
+    "static/media/Delhi_img.png": "/static/media/Delhi_img.82472dcc457e1d8c61d2.png",
+    "static/media/Bhopal.png": "/static/media/Bhopal.dc374d6e4a2ebcec4ca6.png",
+    "static/media/Hydrabad_img.png": "/static/media/Hydrabad_img.4a1e45b138fd85260dbd.png",
+    "static/media/Channai.png": "/static/media/Channai.63080a01ceb0fbe4a8d2.png",
+    "index.html": "/index.html",
+    "main.59ec40dd.css.map": "/static/css/main.59ec40dd.css.map",
+    "main.9cb96f4d.js.map": "/static/js/main.9cb96f4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59ec40dd.css",
+    "static/js/main.9cb96f4d.js"
+  ]
+}

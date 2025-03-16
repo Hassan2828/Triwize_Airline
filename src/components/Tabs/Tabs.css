@@ -1,0 +1,31 @@
+.tab-container{
+    width: 1232px;
+    height:603px;
+    border-radius: 8px;
+    padding-top: 28px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    margin: 150px auto;
+    overflow: hidden;
+    margin-right: 30px !important;
+}
+.tab-content-container{
+    width: 1180px;
+    height: 2145.56px;
+}
+.travel-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tab-heading ul{
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+}
+
+.content{
+    display: none;
+}
+.show-content{
+    display: block;
+}

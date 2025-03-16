@@ -1,0 +1,38 @@
+.Benefits-container{
+    width: 1242px;
+    border-radius: 8px;
+    padding: 28px;
+    color: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    margin: 20px auto 0px;
+}
+.Benefits-get{
+    width: 1180px;
+    height: 292px;
+    gap: 40px;
+}
+.Benefits-contents h2{
+      width: 1180px;
+      height: 41px;
+      font-weight: 700;
+      font-size:40px;
+      line-height: 46px;
+      color: #313131;
+}
+.big-content{
+    width: 1180px;
+    height: 211px;
+    border-top-right-radius: 8px;
+}
+.small-content{
+    width: 393px fixed;
+    height: 211px fixed;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 35px 20px 1px 40px;
+    gap: 10px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

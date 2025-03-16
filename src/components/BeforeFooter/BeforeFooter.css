@@ -1,0 +1,37 @@
+.BeforeContainer {
+    width: 1242px;
+    height: 681px;
+    gap: 12px;
+    margin: 20px auto 0px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  
+  .Destination h4 {
+    width: 100%;
+    max-height: min-content;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13.8px;
+    color: #313131;
+  }
+  
+  .Destination p {
+    width: 100%;
+    max-height: min-content;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 21.16px;
+    color: #525252;
+  }
+  
+  .link-text {
+    text-decoration: none;
+    color: #525252;
+  }
+  
+  .link-text:hover {
+    text-decoration: underline;
+    color: #313131;
+  }
+  

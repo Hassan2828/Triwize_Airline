@@ -1,0 +1,61 @@
+.Emirates{
+    width: 1241px;
+    height: 1136px;
+    gap: 28px;
+}
+.Emirates-card-container{
+    width: 947px;
+    height: 1136px;
+    border-radius: 8px;
+    padding: 28px;
+    gap: 28px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px #959DA533;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flight-banner-card{
+    width: 891px;
+    height: 99px;
+    border-radius: 8px;
+    border: 1px;
+    padding-top: 16px;
+    padding-right: 28px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    gap: 4px;
+    background: #E9811617;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stop-button{
+    width: 222px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px;
+    justify-content: space-between;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+}
+
+.cheapest-fastest{
+    /* width: 618px; */
+    height: 81px;
+    gap: 24px;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+}
+.never-giveup{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.4px;
+    color: #989DA8;
+    width: 45px;
+    height: 18px;
+
+}

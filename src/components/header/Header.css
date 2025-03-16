@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Triwize-header{
+    top: 0px;
+    width: 100%;
+    height: 96px;
+    padding: 0px 10px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    position: fixed;
+    box-shadow: 0px 4px 20px 0px #00000040;
+    z-index: 999;
+}
+.frame{
+    width: 850px;
+    height: 42px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+.Triwize-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116.16px;
+    height: 42px;
+    font-weight: 600;
+    size: 16px;
+    line-height: 19.5px;
+}
+
+.Triwize-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116.16px;
+    height: 42px;
+    font-weight: 600;
+    size: 16px;
+    line-height: 19.5px;
+}
+.nav{
+    width: 400px;
+    height: 18px;
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.4px;
+    color: #313131;
+    gap: 60px;
+}
+.nav ul li{ 
+    color: #313131;
+    min-width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul li:hover{
+    color: #FC7300;
+    transition: 0.3s ease-in-out;
+}
+.nav ul li a:hover{
+  color: rgb(253,115,1);
+  transition: 0.3s ease-in-out;
+}
+.Triwize-caller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 513px;
+    height: 56px;
+    gap: 30px;
+    padding-left: 80px !important;
+}
+.Triwize-call{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #FFEEE1;
+    width: 378px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 10px;
+    background-color: #FFEEE1;
+}
+.Triwize-call a{
+    display: flex;
+    color: #525252;
+
+}
+.Triwize-call:hover{
+    background: #FFFFFF;
+    transition: 0.3s ease-in-out;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    /* top: 4px;
+    left: 4px; */
+    color: #FC7300;
+}
+.Triwize-para{
+    width: 312px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+.emergencry{
+    font-weight: 700;
+    size: 18px;
+    line-height: 20.7px;
+    color: #FC7300;
+}
+.usd{
+    text-decoration: none;
+}
+.nav-line-2{
+    padding-bottom: 2px;
+    padding-right: 8px;
+}
+.header-banner{
+    width: 1440px;
+    height: 382.83px;
+    padding-top: 96px;
+}
+.dropdown-toggle{
+    border: none;
+    outline: none;
+    background: none;
+    margin-top: 0px !important;
+}
+.currancy-image{
+    margin-right: 12px;
+}
+.dropdown-menu li{
+    display: flex;
+}
+.dropdown-menu li span{
+    padding-left: 30px;
+}
+
+
+
+/* dropdown */
+
+/* DealsDropdown.css */
+.deals-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 900px;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color:  #FFFFFF;
+    min-width: 794px; 
+    height: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    padding: 15px;
+    right: 0; /* Aligns the dropdown to the right of the button */
+    display: grid;
+    top: 90px;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    gap: 5px; /* Adds some space between the grid items */
+    border-bottom: 1px solid #F2F2F5;
+    box-shadow: 0px 25px 26px 0px #0000001A;
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px; /* Adjust font size as needed */
+}
+.dropdown-content a:hover {
+    color: #6419DD;
+    background-color: transparent; /* Optional:  background on hover */
+}

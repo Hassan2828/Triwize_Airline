@@ -1,0 +1,54 @@
+
+.city1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(33.33% - 32px);
+    height: 122px;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 8px 24px 0px #959DA51A;
+    cursor: pointer;
+}
+.city1:hover{
+    cursor: pointer;
+    border: 2px solid #A64DFFBF;
+}
+.city-box{
+    width: 1176px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0, max-content));
+
+}
+.city-row{
+    margin-top: 20px;
+    width: 1180px;
+    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+.hydrabad-img img{
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.city-name{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 224px;
+    height: 90px;
+    font-weight: 700;
+    line-height: 20.7px;
+    font-size: 18px;
+    color: #313131;
+}

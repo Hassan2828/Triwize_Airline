@@ -1,0 +1,46 @@
+.footer {
+    background-color: #4a148c; /* Example purple color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+    align-items: flex-start; /* Aligns sections to the top */
+  }
+  
+  .footer-section {
+    margin: 20px; /* Adds space around sections */
+    flex: 1; /* Makes sections equal width */
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    .footer {
+      flex-direction: column; /* Stack sections vertically on small screens */
+      align-items: center; /* Center the sections */
+    }
+  
+    .footer-section {
+      text-align: center; /* Center text within sections on small screens */
+      margin: 10px; /* Adjusts margin for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,54 @@
+.Thank-you{
+    width: 686px;
+    height: 425px;
+    border-radius: 8px;
+    padding: 28px;
+    gap: 12px;
+    background: #FFFFFF;
+    margin-top: 50px;
+}
+.thank-you-container{
+    width: 630px;
+    height: 336.82px;
+    gap: 40px;
+}
+.thank-sub-container img{
+    width: 630px;
+    height: 240.82px;
+    gap: 24px;
+}
+.Thanking-you{
+    width: 630px;
+    height: 83px;
+    gap: 8px;
+}
+.Thanking-you h2{
+    width: 630px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32.2px;
+    align-items: center;
+    color: #313131;
+}
+.Thanking-you p{
+    width: 630px;
+    height: 43px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.16px;
+    align-content: center;
+    color: #525252;
+}
+.Back-to-site{
+    width: 630px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    gap: 8px;
+    background: #A64DFF;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    outline: none;
+    border: none;
+}

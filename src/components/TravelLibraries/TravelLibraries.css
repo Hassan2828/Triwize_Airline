@@ -1,0 +1,54 @@
+
+.travel-card-1{
+    width: 372px;
+    height: 470px;
+    border-radius: 8px;
+    border: 1px ;
+    padding: 12px;
+    gap: 21px;
+    color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 8px 24px 0px #959DA51A;
+}
+.travel-images img{
+    width: 348px;
+    height: 252px;
+    border-radius: 8px;
+    /* padding: 15px 25px 15px 25px; */
+    gap: 10px;
+}
+.date-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 348px;
+    height: 22px;
+}
+.date-time p{
+    width: 86.14px;
+    height: 22px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 22px;
+    color: #525252;
+    margin-top: 30px;
+}
+.travel-heading h3{
+    margin-top: 30px;
+   width: 348px;
+   height: 4px;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 20.7px;
+   color: #313131;
+}
+.travel-heading p{
+    margin-top: 50px;
+    width: 348px;
+    height: 85px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.16px;
+    color: #525252;
+}

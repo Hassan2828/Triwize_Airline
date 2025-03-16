@@ -1,0 +1,30 @@
+.benefits-box{
+    width: 307px;
+    height: 180px;
+    gap: 16px;
+}
+.images-headset img{
+    width: 51px;
+    height: 51px;
+    border-radius: 8px;
+    gap: 10px;
+    color: #CAEA7D;
+    margin-bottom: 12px;
+}
+.benefit-para h4{
+    color: #313131;
+    width: 307px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20.7px;
+}
+.benefit-para p{
+    width: 320px;
+    height: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.16px;
+    color: #313131;
+    margin-bottom: 12px;
+}
