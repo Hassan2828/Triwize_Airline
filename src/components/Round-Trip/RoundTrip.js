@@ -172,124 +172,148 @@ const RoundTrip = () => {
     setShowTravelers(false);
   };
 
+  const [tripType, setTripType] = useState('round');
+
   return (
-    <div className="search__container">
-      <div className="round__one_"></div>
-      <div className="search__sub_container">
-        {/* 1 */}
+    <>
+      <div className="search__container">
+       <section style={{display:'flex', alignItems:'center'}}>
+       <div onClick={()=>setTripType("round")} className="radio-btn"><Radio tripType={tripType} /><span>Round Trip</span></div>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <div onClick={()=>setTripType("one")} className="radio-btn"><Radio2 tripType={tripType}/><span>One Way</span></div>
+       </section>
+        <div className="round__one_"></div>
+        <div className="search__sub_container">
+          {/* 1 */}
 
-        <div className="___inputs__froms">
-          <input
-            className="input__boxs"
-            type="text"
-            placeholder="From where"
-            value={fromTypedInput.label}
-            onChange={handleInputChange}
-            onFocus={handleInputFocus}
-          />
+          <div className="___inputs__froms">
+            <input
+              className="input__boxs"
+              type="text"
+              placeholder="From where"
+              value={fromTypedInput.label}
+              onChange={handleInputChange}
+              onFocus={handleInputFocus}
+            />
 
-          {showDropdown && (
-            <section className="dropdown_list">
-              {apiAirportList.map((item, i) => (
-                <p key={i} onClick={() => handleSelect(item)}>
-                  {item.label}
-                </p>
-              ))}
-            </section>
-          )}
-        </div>
+            {showDropdown && (
+              <section className="dropdown_list">
+                {apiAirportList.map((item, i) => (
+                  <p key={i} onClick={() => handleSelect(item)}>
+                    {item.label}
+                  </p>
+                ))}
+              </section>
+            )}
+          </div>
 
-        {/* 2nd */}
+          {/* 2nd */}
 
-        {/* <div className="input__froms">
+          {/* <div className="input__froms">
           <input type="text" placeholder="To Where" />
         </div> */}
-        <div className="___inputs__froms">
-          <input
-            className="input__boxs"
-            type="text"
-            placeholder="To Where"
-            value={whereTypedInput.label}
-            onChange={(e)=>handleInputChange(e, false)}
-            onFocus={handleInputFocus}
-          />
+          <div className="___inputs__froms">
+            <input
+              className="input__boxs"
+              type="text"
+              placeholder="To Where"
+              value={whereTypedInput.label}
+              onChange={(e) => handleInputChange(e, false)}
+              onFocus={handleInputFocus}
+            />
 
-          {showDropdown && (
-            <section className="dropdown_list">
-              {apiAirportWhereList.map((item, i) => (
-                <p key={i} onClick={() => handleSelect(item, false)}>
-                  {item.label}
-                </p>
-              ))}
-            </section>
-          )}
+            {showDropdown && (
+              <section className="dropdown_list">
+                {apiAirportWhereList.map((item, i) => (
+                  <p key={i} onClick={() => handleSelect(item, false)}>
+                    {item.label}
+                  </p>
+                ))}
+              </section>
+            )}
+          </div>
+
+          {/* 3rd */}
+
+          <div className="input__date">
+            <input type="date" placeholder="Depart - Return" />
+          </div>
+
+          {/* 4th */}
+
+          <div className="input__traveller">
+            <input
+              type="text"
+              placeholder="Adult"
+              value={`${numTravelers} Traveler(s)`}
+              onFocus={handleTravelersInputFocus}
+              // readOnly
+            />
+          </div>
+
+          {/* 5th */}
+          <div className="search__btns">
+            <button>Search</button>
+          </div>
         </div>
 
-        {/* 3rd */}
-
-        <div className="input__date">
-          <input type="date" placeholder="Depart - Return" />
-        </div>
-
-        {/* 4th */}
-
-        <div className="input__traveller">
-          <input
-            type="text"
-            placeholder="Adult"
-            value={`${numTravelers} Traveler(s)`}
-            onFocus={handleTravelersInputFocus}
-            readOnly
-          />
-        </div>
-
-        {/* 5th */}
-        <div className="search__btns">
-          <button>Search</button>
-        </div>
+        {showTravelers && (
+          <div className="travelers-container">
+            <div className="traveler-row">
+              <label>Adults:</label>
+              <div className="traveler-controls">
+                <button onClick={() => decrement("adult")}>-</button>
+                <span>{adults}</span>
+                <button onClick={() => increment("adult")}>+</button>
+              </div>
+            </div>
+            <div className="traveler-row">
+              <label>Seniors:</label>
+              <div className="traveler-controls">
+                <button onClick={() => decrement("senior")}>-</button>
+                <span>{seniors}</span>
+                <button onClick={() => increment("senior")}>+</button>
+              </div>
+            </div>
+            <div className="traveler-row">
+              <label>Children:</label>
+              <div className="traveler-controls">
+                <button onClick={() => decrement("child")}>-</button>
+                <span>{children}</span>
+                <button onClick={() => increment("child")}>+</button>
+              </div>
+            </div>
+            <div className="traveler-row">
+              <label>Infants:</label>
+              <div className="traveler-controls">
+                <button onClick={() => decrement("infant")}>-</button>
+                <span>{infants}</span>
+                <button onClick={() => increment("infant")}>+</button>
+              </div>
+            </div>
+            <button className="Done-btn" onClick={handleDoneClick}>
+              Done
+            </button>
+          </div>
+        )}
       </div>
-
-      {showTravelers && (
-        <div className="travelers-container">
-          <div className="traveler-row">
-            <label>Adults:</label>
-            <div className="traveler-controls">
-              <button onClick={() => decrement("adult")}>-</button>
-              <span>{adults}</span>
-              <button onClick={() => increment("adult")}>+</button>
-            </div>
-          </div>
-          <div className="traveler-row">
-            <label>Seniors:</label>
-            <div className="traveler-controls">
-              <button onClick={() => decrement("senior")}>-</button>
-              <span>{seniors}</span>
-              <button onClick={() => increment("senior")}>+</button>
-            </div>
-          </div>
-          <div className="traveler-row">
-            <label>Children:</label>
-            <div className="traveler-controls">
-              <button onClick={() => decrement("child")}>-</button>
-              <span>{children}</span>
-              <button onClick={() => increment("child")}>+</button>
-            </div>
-          </div>
-          <div className="traveler-row">
-            <label>Infants:</label>
-            <div className="traveler-controls">
-              <button onClick={() => decrement("infant")}>-</button>
-              <span>{infants}</span>
-              <button onClick={() => increment("infant")}>+</button>
-            </div>
-          </div>
-          <button className="Done-btn" onClick={handleDoneClick}>
-            Done
-          </button>
-        </div>
-      )}
-    </div>
+    </>
   );
 };
 
 export default RoundTrip;
+
+
+const Radio = ({tripType}) => {
+  return <>
+  <section className="outer-radio">
+          {tripType =="round"&&<section className="inner-radio"></section>}
+  </section></>
+}
+
+const Radio2 = ({tripType}) => {
+  return <>
+  <section className="outer-radio">
+          {tripType =="one"&&<section className="inner-radio"></section>}
+  </section></>
+}

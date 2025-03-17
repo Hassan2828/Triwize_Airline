@@ -42,8 +42,8 @@ const Flight = () => {
     <BeforeFooter />
     <FooterBanner />
     <FooterBottom /> 
-    <FlightProps />
-    <EmiratesTicketProps />
+    {/* <FlightProps />
+    <EmiratesTicketProps /> */}
     </>
   )
 }
