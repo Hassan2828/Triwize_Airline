@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@syncfusion/ej2-react-calendars": "^28.2.9",
     "@tailwindcss/vite": "^4.0.9",
     "@testing-library/dom": "^10.4.0",

@@ -75,10 +75,12 @@
     color: #FC7300;
     transition: 0.3s ease-in-out;
 }
+
 .nav ul li a:hover{
   color: rgb(253,115,1);
   transition: 0.3s ease-in-out;
 }
+
 .Triwize-caller{
     display: flex;
     justify-content: space-between;
@@ -88,6 +90,7 @@
     gap: 30px;
     padding-left: 80px !important;
 }
+
 .Triwize-call{
     display: flex;
     justify-content: space-between;
@@ -100,24 +103,26 @@
     gap: 10px;
     background-color: #FFEEE1;
 }
+
 .Triwize-call a{
     display: flex;
     color: #525252;
 
 }
+
 .Triwize-call:hover{
     background: #FFFFFF;
     transition: 0.3s ease-in-out;
 }
+
 .phone{
     display: flex;
     align-items: center;
     width: 24px;
     height: 24px;
-    /* top: 4px;
-    left: 4px; */
     color: #FC7300;
 }
+
 .Triwize-para{
     width: 312px;
     height: 21px;
@@ -125,45 +130,32 @@
     font-size: 14px;
     line-height: 21px;
 }
+
 .emergencry{
     font-weight: 700;
     size: 18px;
     line-height: 20.7px;
     color: #FC7300;
 }
+
 .usd{
     text-decoration: none;
 }
+
 .nav-line-2{
     padding-bottom: 2px;
     padding-right: 8px;
 }
+
 .header-banner{
     width: 1440px;
     height: 382.83px;
     padding-top: 96px;
 }
-.dropdown-toggle{
-    border: none;
-    outline: none;
-    background: none;
-    margin-top: 0px !important;
-}
-.currancy-image{
-    margin-right: 12px;
-}
-.dropdown-menu li{
-    display: flex;
-}
-.dropdown-menu li span{
-    padding-left: 30px;
-}
-
 
 
 /* dropdown */
 
-/* DealsDropdown.css */
 .deals-dropdown {
     position: relative;
     display: inline-block;
@@ -171,30 +163,72 @@
 }
 
 .dropdown-content {
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     background-color:  #FFFFFF;
     min-width: 794px; 
-    height: 260px;
+    height: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 999999;
     border-radius: 5px;
     padding: 15px;
-    right: 0; /* Aligns the dropdown to the right of the button */
+    /* left: 10px; */
+    margin-right: 450px;
+    margin-top: 10px;
+    right: 0; 
     display: grid;
     top: 90px;
-    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
-    gap: 5px; /* Adds some space between the grid items */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px; 
     border-bottom: 1px solid #F2F2F5;
     box-shadow: 0px 25px 26px 0px #0000001A;
 }
+
 .dropdown-content a {
     color: black;
     padding: 8px 12px;
     text-decoration: none;
     display: block;
-    font-size: 14px; /* Adjust font size as needed */
+    font-size: 14px;
 }
+
 .dropdown-content a:hover {
     color: #6419DD;
-    background-color: transparent; /* Optional:  background on hover */
+    background-color: transparent; 
 }
+
+.currancy{
+    width: 105px;
+    height: 40px;
+    gap: 6px;
+}
+
+.currancy {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.currancy-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+

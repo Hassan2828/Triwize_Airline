@@ -1,4 +1,4 @@
-.city-container{
+/* .city-container{
     width: 1242px;
     height: 636px;
     border-radius: 8px;
@@ -30,7 +30,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .city-row{
     display:flex;
     justify-content: space-between;
@@ -39,4 +38,77 @@
     height: auto;
     gap: 32px;
     flex-wrap: wrap;
+} */
+
+.citylove-container{
+        width: 1242px;
+        height: 636px;
+        border-radius: 8px;
+        padding: 28px;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 24px 0px #959DA533;
+        margin: 20px auto 0px;
+}
+.cities__sub-container{
+    width: 1176px;
+    height: 578.56px;
+    gap: 40px;
+}
+.cities_title{
+    width: 1176px;
+    height: 42px;
+    gap: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    font-family: Helvetica;
+    color: #313131;
+}
+.india__usa{
+    width: 1176px;
+    gap: 28px;
+}
+.main__city__container{
+    width: 1176px;
+    height: 430px;
+    gap: 32px;
+    margin-top: 12px;
+}
+.city__row{
+    width: 1180px;
+    height: 122px;
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.city__box{
+    width: 372px;
+    height: 122px;
+    border-radius: 8px;
+    border: 1px solid red;
+    padding: 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 8px 24px 0px #959DA51A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.city__image img{
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.city__name{
+    width: 224px;
+    height: 90px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    vertical-align: middle;
+    color : #313131;
+    display: flex;
+    align-items: center;
 }

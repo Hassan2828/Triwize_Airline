@@ -1,5 +1,4 @@
-
-.city1{
+/* .city1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,14 +14,13 @@
 }
 .city1:hover{
     cursor: pointer;
-    border: 2px solid #A64DFFBF;
+    outline: 2px solid #A64DFFBF;
 }
 .city-box{
     width: 1176px;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3,minmax(0, max-content));
-
 }
 .city-row{
     margin-top: 20px;
@@ -51,4 +49,4 @@
     line-height: 20.7px;
     font-size: 18px;
     color: #313131;
-}
+} */

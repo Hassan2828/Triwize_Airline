@@ -1,7 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CityProp.css";
-import CityULove from "./CityULove";
-
 import Hydrabad from "../../assets/CityULove/Hydrabad_img.png";
 import Delhi from "../../assets/CityULove/Delhi_img.png";
 import Pune from "../../assets/CityULove/Pune.png";
@@ -13,35 +11,92 @@ import Ahmedabad from "../../assets/CityULove/Ahmendabad.png";
 import Bhopal from "../../assets/CityULove/Bhopal.png";
 
 const CityProp = () => {
+  const [togglecity, setTogglecity] = useState(1); // State to toggle between India and USA cities
+
+  const indianCity = [
+    { img: Hydrabad, city: "Hyderabad" },
+    { img: Delhi, city: "New Delhi" },
+    { img: Pune, city: "Pune" },
+    { img: Bangalore, city: "Bangalore" },
+    { img: Kolkata, city: "Kolkata" },
+    { img: Mumbai, city: "Mumbai" },
+    { img: Chennai, city: "Chennai" },
+    { img: Ahmedabad, city: "Ahmedabad" },
+    { img: Bhopal, city: "Bhopal" },
+    
+    { img: Hydrabad, city: "Hyderabad" },
+    { img: Delhi, city: "New Delhi" },
+    { img: Pune, city: "Pune" },
+    { img: Bangalore, city: "Bangalore" },
+    { img: Kolkata, city: "Kolkata" },
+    { img: Mumbai, city: "Mumbai" },
+    { img: Chennai, city: "Chennai" },
+    { img: Ahmedabad, city: "Ahmedabad" },
+    { img: Bhopal, city: "Bhopal" },
+  ];
+
+  const usaCity = [
+    { img: Hydrabad, city: "New York" },
+    { img: Delhi, city: "Washington" },
+    { img: Pune, city: "Ohio" },
+    { img: Bangalore, city: "Los Angeles" },
+    { img: Kolkata, city: "Chicago" },
+    { img: Mumbai, city: "San Francisco" },
+    { img: Chennai, city: "Miami" },
+    { img: Ahmedabad, city: "Boston" },
+    { img: Bhopal, city: "Seattle" },
+
+    { img: Hydrabad, city: "New York" },
+    { img: Delhi, city: "Washington" },
+    { img: Pune, city: "Ohio" },
+    { img: Bangalore, city: "Los Angeles" },
+    { img: Kolkata, city: "Chicago" },
+    { img: Mumbai, city: "San Francisco" },
+    { img: Chennai, city: "Miami" },
+    { img: Ahmedabad, city: "Boston" },
+    { img: Bhopal, city: "Seattle" },
+  ];
+
+  const cities = togglecity === 1 ? indianCity : usaCity;
+
   return (
-    <>
-      <div className="city-container">
-        <div className="city-love">
-          <h2>Cities You Might Love</h2>
-          <div className="city-wise">
-            <div className="ticket-details">
-              <div className="love-one">
-                <p>India</p>
-                <p>USA</p>
-              </div>
-              <div className="city-box">
-                <div className="city-row">
-                  <CityULove city_img={Hydrabad} city="Hyderabad" />
-                  <CityULove city_img={Delhi} city="New Delhi" />
-                  <CityULove city_img={Pune} city="Pune" />
-                  <CityULove city_img={Bangalore} city="Bangalore" />
-                  <CityULove city_img={Kolkata} city="Kolkata" />
-                  <CityULove city_img={Mumbai} city="Mumbai" />
-                  <CityULove city_img={Chennai} city="Chennai" />
-                  <CityULove city_img={Ahmedabad} city="Ahmedabad" />
-                  <CityULove city_img={Bhopal} city="Bhopal" />
+    <div className="citylove-container">
+      <div className="cities__sub-container">
+        <h2 className="cities_title">Cities You Might Love</h2>
+
+        <div className="india__usa">
+
+          <div className="love-one">
+            <p
+              onClick={() => setTogglecity(1)}
+              className={togglecity === 1 ? "active-tab" : ""}
+            >
+            India
+            </p>
+            <p
+              onClick={() => setTogglecity(2)}
+              className={togglecity === 2 ? "active-tab" : ""}
+            >
+            USA
+            </p>
+          </div>
+        </div>
+
+        <div className="main__city__container">
+          <div className="city__row">
+            {cities.map((item, index) => (
+              <div key={index} className="city__box">
+                <div className="city__image">
+                  <img src={item.img} alt={item.city} />
+                </div>
+                <div className="city__name">{item.city}
                 </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

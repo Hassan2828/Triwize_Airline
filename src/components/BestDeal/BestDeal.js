@@ -19,21 +19,21 @@ const BestDeal = (props) => {
                     </div>
                 </div>
 
-                <div className="destination-section">
-                    <div className="destination-details">
-                        <div className="destination-id">
-                            <div className='destination-name'>
-                                <p>{props.name}</p>
-                            </div>
-                            <div className="destination-date">
+    <div className="destination-section">
+        <div className="destination-details">
+            <div className="destination-id">
+                <div className='destination-name'>
+                <p>{props.name}</p>
+                    </div>
+                <div className="destination-date">
                                 <p>{props.date}</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="destination-duration">
-                        <div className="destination-time">
-                            <h6>{props.time}</h6>
+        <div className="destination-duration">
+            <div className="destination-time">
+                    <h6>{props.time}</h6>
                         </div>
 
                         <div className='air-way'>
@@ -47,10 +47,10 @@ const BestDeal = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="real-airplane">
-                                <img src={props.vectorimg} alt="" />
-                            </div>
-                        </div>
+                <div className="real-airplane">
+                <img src={props.vectorimg} alt="" />
+               </div>
+            </div>
 
                         
                         <div className="stop">

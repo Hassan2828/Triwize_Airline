@@ -7,52 +7,58 @@
     box-shadow: 0px 8px 24px 0px #959DA533;
     margin: 20px auto 0px;
 }
+
 .deals-container{
     width: 1176.77px;
-    min-height: max-content;
+    min-height: 595.56px;
     gap: 40px;
 }
+
 .deal-heading{
     width: 1176.77px;
     height: 41px;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 32px;
+    line-height: 100%;
+    color: #313131;
 }
+
 .deal-heading p{
      width: 1176.77px;
      height: 41px;
      font-weight: 700;
-     font-size: 40px;
-     line-height: 46px;
+     font-size: 32px;
+     line-height: 100%;
      color: #313131;
 }
+
 .ticket-details{
     width: 1178px;
     height: 534.56px;
     gap: 28px;
     padding-top: 10px;
 }
+
 .one-way{
     display: flex;
     width: 569px;
     height: 38.56px;
     border-bottom: 1px solid black;
     padding-bottom: 10px;
+    gap: 16px;
 }
+
 .one-way p{
+    display: flex;
+    justify-content: space-between;
     height: 18px;
     gap: 48px;
 }
-.ticket-info-one{
-    width: 1178px;
-    height: 440px;
-    gap: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.one-way #ways{
+  padding-right: 36px;
 }
-.ticket-info-box{
+
+#ticket-info-box {
     width: 1178px;
     height: 468px;
     display: flex;
@@ -60,6 +66,16 @@
     gap: 28px;
     flex-wrap: wrap;
 }
+
+.ticket-info-one{
+    width: 1178px;
+    height: 100%;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .condition p{
     width: 1167px;
     height: 23px;
@@ -68,6 +84,6 @@
     line-height: 12.29px;
     color: #525252;
     font-family:Helvetica light;
-    margin-top: 70px;
+    margin-top: 90px;
     padding-top: 20px;
 }

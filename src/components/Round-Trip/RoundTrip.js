@@ -6,8 +6,6 @@ const RoundTrip = () => {
   const [apiAirportList, setApiAirportList] = useState(["Search on Typing"]);
   const [apiAirportWhereList, setApiAirportWhereList] = useState(["Search on Typing"]);
 
-
-
   const [fromTypedInput, setFromTypedInput] = useState({value:"", label:""});
   const [whereTypedInput, setWhereTypedInput] = useState({value:"", label:""});
   const [showDropdown, setShowDropdown] = useState(false);
