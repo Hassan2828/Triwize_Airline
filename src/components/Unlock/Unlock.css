@@ -8,9 +8,9 @@
     background: #FFFFFF;
     display: flex;
     box-shadow: 0px 4px 20px 0px #6D6D6D33;
-
 }
 .unlock-card{
+
     width: 898px;
     height: 415px;
     gap: 24px;
@@ -72,6 +72,9 @@
     border: none;
     outline: none;
     margin-top: 20px;
+}
+.parashot button{
+  margin-left: 400px;
 }
 .parashot img{
     width: 423.87px;

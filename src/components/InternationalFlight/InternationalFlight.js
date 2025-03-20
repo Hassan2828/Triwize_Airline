@@ -5,7 +5,6 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const InternationalFlight = (props) => {
 
-  
   return (
     <> 
         <div className="flight-card-1">

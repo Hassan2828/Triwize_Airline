@@ -6,7 +6,7 @@ import Vector from "../../assets/bestDeals/Vector.png";
 
 const BestDealProps = () => {
   const [toggletrip, setToggleTrip] = useState(1); // State to track active tab
-
+                       
   function updateToggleTrip(id) {
     setToggleTrip(id); // Update state based on tab click
   }

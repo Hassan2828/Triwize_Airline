@@ -20,11 +20,13 @@ import FlightProps from "../../components/FlightPage/FlightProps.js";
 import EmiratesTicketProps from "../../components/EmiratesTicket/EmiratesTicketProps.js";
 import Banner from "../../components/Banner/Banner.js";
 import ShareDetails from '../../components/ShareDetails/ShareDetails.js';
+import Unlock from '../../components/Unlock/Unlock.js';
 
 
 const Flight = () => {
   return (
     <>
+    <Unlock />
     <Banner />
     <RoundTrip />
     <OfferCard />

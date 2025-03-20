@@ -19,7 +19,10 @@
     font-size: 64px;
     color: #EBD9FF;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-right: 30px;
+    margin-bottom: 80px;
 }
 .search-location h3{
     width: 226px;

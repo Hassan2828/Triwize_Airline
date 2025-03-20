@@ -6,7 +6,7 @@ import ThankYou from '../../components/ThankYou/ThankYou';
 const ContactUs = () => {
   return (
     <>
-    <div className='contacct'>
+    <div className='contact'>
        <Unlock />
        <ThankYou />
      <h1>ContactUs pages</h1>
