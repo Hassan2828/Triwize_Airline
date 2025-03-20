@@ -9,6 +9,9 @@ import Mumbai from "../../assets/CityULove/Mumbai.png";
 import Chennai from "../../assets/CityULove/Channai.png";
 import Ahmedabad from "../../assets/CityULove/Ahmendabad.png";
 import Bhopal from "../../assets/CityULove/Bhopal.png";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 const CityProp = () => {
   const [togglecity, setTogglecity] = useState(1); // State to toggle between India and USA cities
@@ -16,23 +19,6 @@ const CityProp = () => {
   const indianCity = [
     { img: Hydrabad, city: "Hyderabad" },
     { img: Delhi, city: "New Delhi" },
-    { img: Pune, city: "Pune" },
-    { img: Bangalore, city: "Bangalore" },
-    { img: Kolkata, city: "Kolkata" },
-    { img: Mumbai, city: "Mumbai" },
-    { img: Chennai, city: "Chennai" },
-    { img: Ahmedabad, city: "Ahmedabad" },
-    { img: Bhopal, city: "Bhopal" },
-    
-    { img: Hydrabad, city: "Hyderabad" },
-    { img: Delhi, city: "New Delhi" },
-    { img: Pune, city: "Pune" },
-    { img: Bangalore, city: "Bangalore" },
-    { img: Kolkata, city: "Kolkata" },
-    { img: Mumbai, city: "Mumbai" },
-    { img: Chennai, city: "Chennai" },
-    { img: Ahmedabad, city: "Ahmedabad" },
-    { img: Bhopal, city: "Bhopal" },
   ];
 
   const usaCity = [
@@ -57,45 +43,188 @@ const CityProp = () => {
     { img: Bhopal, city: "Seattle" },
   ];
 
-  const cities = togglecity === 1 ? indianCity : usaCity;
+  let cities = togglecity === 1 ? indianCity : usaCity;
 
   return (
-
     <div className="citylove-container">
       <div className="cities__sub-container">
         <h2 className="cities_title">Cities You Might Love</h2>
 
         <div className="india__usa">
-
           <div className="love-one">
-            <p
+            <button
               onClick={() => setTogglecity(1)}
               className={togglecity === 1 ? "active-tab" : ""}
             >
-            India
-            </p>
-            <p
+              India
+            </button>
+            <button
               onClick={() => setTogglecity(2)}
               className={togglecity === 2 ? "active-tab" : ""}
             >
-            USA
-            </p>
+              USA
+            </button>
           </div>
         </div>
 
-        <div className="main__city__container">
+        {/* <div className="main__city__container">
           <div className="city__row">
             {cities.map((item, index) => (
               <div key={index} className="city__box">
                 <div className="city__image">
                   <img src={item.img} alt={item.city} />
                 </div>
-                <div className="city__name">{item.city}
-                </div>
+                <div className="city__name">{item.city}</div>
               </div>
             ))}
           </div>
+        </div> */}
+        <div className="main__city__container">
+          <div className="city__row" style={{display:'unset'}}>
+          <Carousel>
+          <div className="gg">
+          <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Delhi} alt={Delhi} />
+              </div>
+              <div className="city__name">Delhi</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+           
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+           
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+           
+          </div>
+          <div className="gg">
+          <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Delhi} alt={Delhi} />
+              </div>
+              <div className="city__name">Delhi</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+           
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+           
+          </div>
+          <div className="gg">
+          <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Delhi} alt={Delhi} />
+              </div>
+              <div className="city__name">Delhi</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+           
+            <div className="city__box">
+              <div className="city__image">
+                <img src={Hydrabad} alt={Hydrabad} />
+              </div>
+              <div className="city__name">Hydrabad</div>
+            </div>
+           
+          </div>
+        </Carousel>
+          </div>
         </div>
+       
       </div>
     </div>
   );
