@@ -5,10 +5,10 @@ import AirIndia from "../../assets/bestDeals/AirIndia.png";
 import Vector from "../../assets/bestDeals/Vector.png";
 
 const BestDealProps = () => {
-  const [toggletrip, setToggleTrip] = useState(1); // State to track active tab
+  const [toggletrip, setToggleTrip] = useState(1); 
                        
   function updateToggleTrip(id) {
-    setToggleTrip(id); // Update state based on tab click
+    setToggleTrip(id);
   }
 
   return (
@@ -18,7 +18,6 @@ const BestDealProps = () => {
           <p>Best Deals On Domestic Flights</p>
         </div>
         <div className="ticket-details">
-          {/* Tabs for One Way Trip and Round Trip */}
           <div className="one-way">
             <p
               onClick={() => updateToggleTrip(1)}
@@ -35,9 +34,7 @@ const BestDealProps = () => {
             </p>
           </div>
 
-          {/* Ticket Information */}
           <div className="ticket-info-one">
-            {/* Conditional Rendering for One Way Trip */}
             {toggletrip === 1 && (
               <div id="ticket-info-box">
                 {[...Array(8)].map((_, index) => (
@@ -59,10 +56,9 @@ const BestDealProps = () => {
               </div>
             )}
 
-            {/* Conditional Rendering for Round Trip */}
             {toggletrip === 2 && (
               <div id="ticket-info-box">
-                {[...Array(6)].map((_, index) => (
+                {[...Array(8)].map((_, index) => (
                   <BestDeal
                     key={index}
                     AirIndia={AirIndia}

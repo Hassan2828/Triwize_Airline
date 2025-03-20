@@ -10,7 +10,6 @@ import "./FlightCard.css";
 const FlightCard = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 1300 },
       items: 5
     },

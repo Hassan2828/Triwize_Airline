@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./InternationalFlight.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 

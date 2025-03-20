@@ -60,6 +60,7 @@ const CityProp = () => {
   const cities = togglecity === 1 ? indianCity : usaCity;
 
   return (
+
     <div className="citylove-container">
       <div className="cities__sub-container">
         <h2 className="cities_title">Cities You Might Love</h2>
@@ -101,3 +102,5 @@ const CityProp = () => {
 };
 
 export default CityProp;
+
+
