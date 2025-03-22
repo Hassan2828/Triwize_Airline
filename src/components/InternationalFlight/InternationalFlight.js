@@ -1,10 +1,11 @@
 import React from "react";
 import "./InternationalFlight.css";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Carousel } from "react-responsive-carousel";
 
 const InternationalFlight = (props) => {
-
-  return (
+  return   
+  (
     <> 
         <div className="flight-card-1">
           <div className="flight-img">
@@ -27,7 +28,6 @@ const InternationalFlight = (props) => {
             </div>
           </div>
         </div>
-
     </>
   );
 };

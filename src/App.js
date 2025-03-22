@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/header/Header.js";
 import './App.css';
+import './index.css';
 import { Route, Routes } from "react-router-dom";
 import Flight from './pages/Flight/Flight.js';
 import Blogs from './pages/Blogs/Blogs.js';

@@ -19,6 +19,13 @@ const CityProp = () => {
   const indianCity = [
     { img: Hydrabad, city: "Hyderabad" },
     { img: Delhi, city: "New Delhi" },
+    { img: Pune, city: "Pune" },
+    { img: Bangalore, city: "Bangalore" },
+    { img: Kolkata, city: "Kolkata" },
+    { img: Mumbai, city: "Mumbai" },
+    { img: Chennai, city: "Chennai" },
+    { img: Ahmedabad, city: "Ahmedabad" },
+    { img: Bhopal, city: "Bhopal" }
   ];
 
   const usaCity = [
@@ -52,22 +59,25 @@ const CityProp = () => {
 
         <div className="india__usa">
           <div className="love-one">
+
             <button
               onClick={() => setTogglecity(1)}
               className={togglecity === 1 ? "active-tab" : ""}
             >
               India
             </button>
+
             <button
               onClick={() => setTogglecity(2)}
               className={togglecity === 2 ? "active-tab" : ""}
             >
               USA
             </button>
+
           </div>
         </div>
 
-        {/* <div className="main__city__container">
+         {/* <div className="main__city__container">
           <div className="city__row">
             {cities.map((item, index) => (
               <div key={index} className="city__box">
@@ -78,153 +88,219 @@ const CityProp = () => {
               </div>
             ))}
           </div>
-        </div> */}
-        <div className="main__city__container">
-          <div className="city__row" style={{display:'unset'}}>
-          <Carousel>
+        </div>  */}
+
+      <div className="main__city__container">
+
+        <div className="city__row" style={{display:'unset'}}>
+
+        <Carousel>
           <div className="gg">
+
           <div className="city__box">
               <div className="city__image">
                 <img src={Hydrabad} alt={Hydrabad} />
               </div>
               <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
+          </div>
+
+          <div className="city__box">
               <div className="city__image">
                 <img src={Delhi} alt={Delhi} />
               </div>
-              <div className="city__name">Delhi</div>
-            </div>
-            <div className="city__box">
+              <div className="city__name">New Delhi</div>
+          </div>
+
+          <div className="city__box">
               <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
+                <img src={Pune} alt={Hydrabad} />
               </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
+              <div className="city__name">Pune</div>
+          </div>
+
+          <div className="city__box">
               <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
+                <img src={Bangalore} alt={Bangalore} />
               </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
+              <div className="city__name">Bangalore</div>
+          </div>
+
+          <div className="city__box">
               <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
+                <img src={Kolkata} alt={Kolkata} />
               </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
+              <div className="city__name">kolkata</div>
+          </div>
            
-            <div className="city__box">
+          <div className="city__box">
               <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
+                <img src={Mumbai} alt={Mumbai} />
               </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
+              <div className="city__name">Mumbai</div>
+          </div>
+
+          <div className="city__box">
               <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
+                <img src={Chennai} alt={Chennai} />
               </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
+              <div className="city__name">Chennai</div>
+          </div>
+
+          <div className="city__box">
               <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
+                <img src={Ahmedabad} alt={Ahmedabad} />
               </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
+              <div className="city__name">Ahmedabad</div>
+          </div>
            
-            <div className="city__box">
+          <div className="city__box">
               <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
+                <img src={Bhopal} alt={Bhopal} />
               </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
+              <div className="city__name">Bhopal</div>
+          </div>
            
           </div>
+
           <div className="gg">
-          <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Delhi} alt={Delhi} />
-              </div>
-              <div className="city__name">Delhi</div>
-            </div>
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-           
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-           
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Hydrabad} alt={Hydrabad} />
+    </div>
+    <div className="city__name">Hydrabad</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Delhi} alt={Delhi} />
+    </div>
+    <div className="city__name">New Delhi</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Pune} alt={Hydrabad} />
+    </div>
+    <div className="city__name">Pune</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Bangalore} alt={Bangalore} />
+    </div>
+    <div className="city__name">Bangalore</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Kolkata} alt={Kolkata} />
+    </div>
+    <div className="city__name">kolkata</div>
+</div>
+ 
+<div className="city__box">
+    <div className="city__image">
+      <img src={Mumbai} alt={Mumbai} />
+    </div>
+    <div className="city__name">Mumbai</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Chennai} alt={Chennai} />
+    </div>
+    <div className="city__name">Chennai</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Ahmedabad} alt={Ahmedabad} />
+    </div>
+    <div className="city__name">Ahmedabad</div>
+</div>
+ 
+<div className="city__box">
+    <div className="city__image">
+      <img src={Bhopal} alt={Bhopal} />
+    </div>
+    <div className="city__name">Bhopal</div>
+</div>
+ 
           </div>
+
           <div className="gg">
-          <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Delhi} alt={Delhi} />
-              </div>
-              <div className="city__name">Delhi</div>
-            </div>
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-           
-            <div className="city__box">
-              <div className="city__image">
-                <img src={Hydrabad} alt={Hydrabad} />
-              </div>
-              <div className="city__name">Hydrabad</div>
-            </div>
-           
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Hydrabad} alt={Hydrabad} />
+    </div>
+    <div className="city__name">Hydrabad</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Delhi} alt={Delhi} />
+    </div>
+    <div className="city__name">New Delhi</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Pune} alt={Hydrabad} />
+    </div>
+    <div className="city__name">Pune</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Bangalore} alt={Bangalore} />
+    </div>
+    <div className="city__name">Bangalore</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Kolkata} alt={Kolkata} />
+    </div>
+    <div className="city__name">kolkata</div>
+</div>
+ 
+<div className="city__box">
+    <div className="city__image">
+      <img src={Mumbai} alt={Mumbai} />
+    </div>
+    <div className="city__name">Mumbai</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Chennai} alt={Chennai} />
+    </div>
+    <div className="city__name">Chennai</div>
+</div>
+
+<div className="city__box">
+    <div className="city__image">
+      <img src={Ahmedabad} alt={Ahmedabad} />
+    </div>
+    <div className="city__name">Ahmedabad</div>
+</div>
+ 
+<div className="city__box">
+    <div className="city__image">
+      <img src={Bhopal} alt={Bhopal} />
+    </div>
+    <div className="city__name">Bhopal</div>
+</div>
+ 
           </div>
         </Carousel>
-          </div>
+
         </div>
-       
+
+      </div>
+      
       </div>
     </div>
   );

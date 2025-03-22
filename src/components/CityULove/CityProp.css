@@ -1,44 +1,4 @@
-/* .city-container{
-    width: 1242px;
-    height: 636px;
-    border-radius: 8px;
-    padding: 28px;
-    background: #FFFFFF;
-    box-shadow: 0px 8px 24px 0px #959DA533;
-    margin: 20px auto 0px;
-}
-.ticket-details{
-    width: 1178px;
-    height: 534.56px;
-    gap: 28px;
-}
-.love-one{
-    display: flex;
-    width: 569px;
-    height: 38.56px;
-    gap: 16px;
-    border-bottom: 1px solid black;
-}
-.love-one p{
-    height: 18px;
-    gap: 48px;
-}
-.city-box{
-    width: 1176px;
-    height: 430px;
-    gap: 32px;
-    display: flex;
-    justify-content: space-between;
-}
-.city-row{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1180px;
-    height: auto;
-    gap: 32px;
-    flex-wrap: wrap;
-} */
+
 
 .citylove-container{
         width: 1242px;
@@ -65,8 +25,9 @@
     color: #313131;
 }
 .india__usa{
-    width: 1176px;
+    width: 569px;
     gap: 28px;
+    border-bottom: 1px solid #E4E4E5;
 }
 .main__city__container{
     width: 1176px;
@@ -111,6 +72,10 @@
     color : #313131;
     display: flex;
     align-items: center;
+}
+.love-one{
+    border-bottom: none;
+    width: 569px !important;
 }
 
 .love-one button{

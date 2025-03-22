@@ -8,6 +8,8 @@ import Delhi from "../../assets/InternationalCard/Delhi.png";
 import "./FlightCard.css";
 
 const FlightCard = () => {
+  const [toggleTrip, setToggleTrip] = useState(1); 
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1300 },
@@ -26,7 +28,7 @@ const FlightCard = () => {
       items: 1
     }
   };
-  
+
   return (
     <>
       <div className="international-flight">
@@ -37,11 +39,17 @@ const FlightCard = () => {
           <div className="international-card">
             <div className="ticket-details">
               <div className="one-way">
-                <p>One way Trip</p>
-                <p>Round Trip</p>
+                <button onClick={() => setToggleTrip(1)}
+                className={toggleTrip === 1 ? "active-button" : ""}
+                >One way Trip</button>
+
+                <button  onClick={() => setToggleTrip(2)}
+                className={toggleTrip === 2 ? "active-button" : ""}
+                  >Round Trip</button>
               </div>
                 <Carousel responsive={responsive} >  
-                <div className="card-gallerys">           <InternationalFlight
+                <div className="card-gallerys">  
+              <InternationalFlight
                 image={Mumbai}
                 heading="New York"
                 main="Mumbai"
@@ -49,7 +57,7 @@ const FlightCard = () => {
                 amount="$560*"
                 booking="Book"
               />
-               <InternationalFlight
+              <InternationalFlight
                 image={Hydarabad}
                 heading="San Francisco"
                 main="Hyderabad"
@@ -57,7 +65,7 @@ const FlightCard = () => {
                 amount="$425*"
                 booking="Book"
               />
-               <InternationalFlight
+              <InternationalFlight
                 image={Delhi}
                 heading="Chicago"
                 main="Delhi"
@@ -65,7 +73,7 @@ const FlightCard = () => {
                 amount="$750*"
                 booking="Book"
               />
-                 <InternationalFlight
+              <InternationalFlight
                 image={Mumbai}
                 heading="New York"
                 main="Mumbai"
@@ -74,7 +82,7 @@ const FlightCard = () => {
                 booking="Book"
               />
             </div>
-              </Carousel>
+        </Carousel>
           </div>
           </div>
         </div>

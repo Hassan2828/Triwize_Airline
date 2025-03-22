@@ -43,17 +43,28 @@
     display: flex;
     width: 569px;
     height: 38.56px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E4E4E5;
     padding-bottom: 10px;
     gap: 16px;
 }
 
-.one-way p{
+.one-way button{
     display: flex;
     justify-content: space-between;
     height: 18px;
-    gap: 48px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid transparent;
+    background: transparent;
+    padding: 18px 16px;
 }
+
+.one-way .active-button{
+   color: #FC7300;
+   border-bottom: 4px solid #FC7300;
+}
+
 .one-way #ways{
   padding-right: 36px;
 }

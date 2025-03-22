@@ -64,7 +64,7 @@ const Header = () => {
                         </a>
                     </div>
                     <div className="nav">
-                        <ul>
+                        <ul className='roboto-700'>
                             <NavLink to='/' style={{ textDecoration: 'none' }}>
                                 <li>Flights</li>
                             </NavLink>

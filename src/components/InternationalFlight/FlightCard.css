@@ -4,7 +4,7 @@
     border-radius: 8px;
     padding: 28px;
     color: #FFFFFF;
-    box-shadow: 0px 8px 24px 0px #959DA533;
+    box-shadow: 0px 8px 24px 0px #3b78b433;
     margin: 20px auto 0px;
 
 }
@@ -36,14 +36,25 @@
     width: 569px;
     height: 38.56px;
     gap: 16px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E4E4E5;
     color: #FC7300;
 }
-.one-way p{
+.one-way button{
     height: 18px;
     gap: 48px;
     color: #FC7300;
+    cursor: pointer;
+    border: none;
+    border-bottom: 4px solid transparent;
+    background: transparent;
+    padding: 8px 24px;
 }
+
+.one-way .active-button{
+    color: #FC7300;
+    border-bottom: 4px solid #FC7300;
+}
+
 .card-gallerys{
     margin-top: 20px;
     width: 1167px;
