@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './ShareDetails.css';
 import ShareDetailImage from '../../assets/ShareDetails/ShareDetailImage.png';
 
-const ShareDetails = () => {
+    const ShareDetails = () => {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');

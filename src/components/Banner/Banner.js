@@ -5,7 +5,7 @@ import BannerTop from '../../assets/banner/BannerTop.png';
 const Banner = () => {
   return (
     <div className='banner-top'>
-<img src={BannerTop} alt="" />
+    <img src={BannerTop} alt="" />
     </div>
   )
 }

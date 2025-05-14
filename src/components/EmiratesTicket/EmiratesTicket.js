@@ -4,12 +4,17 @@ import './EmiratesTicket.css';
 const EmiratesTicket = (Props) => {
   return (
    <>
-        <div className='emirates-card'>
+    <div className='emirates-card'>
         <div className="emirates-container">
     <div className="emirates-details">
+
        <div className="Emirates-logo">
          <img src={Props.planeflying} alt="" />
-        </div>
+         <div className='margin-left'>
+
+         </div>
+       </div>
+
             <div className="emirates-card-details">
                 <div className="New-York">
                     <div className='emirate-box1'>

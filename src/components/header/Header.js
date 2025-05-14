@@ -65,9 +65,10 @@ const Header = () => {
                     </div>
                     <div className="nav">
                         <ul className='roboto-700'>
-                            <NavLink to='/' style={{ textDecoration: 'none' }}>
+                            <NavLink to='/flight' style={{ textDecoration: 'none' }}>
                                 <li>Flights</li>
                             </NavLink>
+                     
                             <NavLink style={{ textDecoration: 'none' }} onClick={toggleDealsDropdown}>
                                 <li>Deals</li>
                             </NavLink>

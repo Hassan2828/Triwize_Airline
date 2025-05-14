@@ -1,6 +1,25 @@
+.emirates-card{
+    width: 891px;
+    /* height: auto; */
+    border-radius: 8px;
+    padding: 16px;
+    gap: 4px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 8px 24px 0px #8D8D8D1A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.emirates-container{
+    width: 859px;
+    height: 121px;
+}
 
 .emirates-details{
-    width: 645px;
+    width: 100%;
     height: 110px;
     gap: 24px;
     display: flex;
@@ -9,15 +28,19 @@
 .Emirates-logo{
     width: 82px;
     height: 82px;
+    margin-right: 50px;
 }
+
 .emirates-card-details{
     width: 514px;
     height: 110px;
     gap: 53px;
     display: flex;
     align-items: center;
+
 }
 .New-York{
+    margin-right: 10px;
     width: 128px;
     height: 110px;
     gap: 16px;
@@ -26,6 +49,7 @@
     width: 128px;
     height: 46px;
     margin-bottom: 12px;
+
 }
 .newyo{
     width: 108px;
@@ -67,7 +91,6 @@
 .destination-duration{
     width: 100px;
     height: 51px;
-    gap: 8px;
 }
 .destination-time h6{
     width: 67px;
@@ -130,11 +153,10 @@
     justify-content: space-between;
 }
 .stop{
-    width: 58px;
-    height: 15px;
-    gap: 2px;
+    width: 85%;
+    padding-right: 2px !important;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .NumberOfStop{
@@ -157,6 +179,8 @@
     width: 180px;
     height: 98px;
     gap: 16px;
+    margin-right: 48px;
+    
 }
 .Delhi{
     margin-bottom: 12px;

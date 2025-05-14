@@ -1,0 +1,92 @@
+import React, {useState} from 'react';
+import './Header.css';
+
+const Header1 = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [isCurrencyOpen, setIsCurrencyOpen] = useState(false);
+    const [selectedCurrency, setSelectedCurrency] = useState({
+        label : 'USD',
+        image : currencylogo,  // Default image for USD
+    });
+
+    // Toggle the currency dropdown
+    const toggleCurrencyDropdown = () => {
+    setIsCurrencyOpen(!isCurrencyOpen);
+    };
+
+    // Handle selecting a currency and updating the label and image
+
+    const handleCurrencySelect = (currency, image) => {
+        setSelectedCurrency({label : currency, image});
+        setIsCurrencyOpen(false); // Close the dropdown
+    };
+
+    // Toggle Deals dropdown
+    const toggleDealsDropdown = () => {
+        setIsOpen(!isOpen);
+    }
+
+    const routes = [
+     "San Francisco to New Delhi",
+       "San Francisco to Mumbai",
+        "San Francisco to Bangalore",
+        "New York to New Delhi",
+        "New York to Mumbai",
+        "Washington, D.C. to New Delhi",
+        "Newark to Mumbai",
+        "Dallas to New Delhi",
+        "Seattle to Bengaluru",
+        "Boston to Mumbai",
+        "New York to Chennai",
+        "Chicago to New Delhi",
+        "Chicago to Hyderabad",
+        "Los Angeles to New Delhi",
+        "Los Angeles to Mumbai",
+    ];
+
+  return (
+    <>
+      <div className='Triwize-header'>
+          <div className='frame'>
+            <div className='Triwize-logo'>
+                <a href='/'>
+                <img src={Triwize} alt="" />
+                <img src={Group24} alt="" />
+                <img src={Z} alt="" />
+                <img src={E} alt="" />
+                </a>
+            </div>
+        <div className="nav">
+           <ul className='roboto-700'>
+            <NavLink to='/flight' style={{textDecoration: 'none'}}>
+            <li>Flights</li>
+            </NavLink>
+
+            <NavLink style={{textDecoration: 'none'}} onClick={toggleDealsDropdown}>
+            <li>Deals</li>
+            </NavLink>
+
+            <NavLink to='blogs' style={{textDecoration: 'none'}}>
+            <li>Blogs</li>
+            </NavLink>
+
+            <NavLink to='contacts' style={{textDecoration: 'none'}}>
+            <li>Contact Us</li>
+            </NavLink>
+           </ul>
+        </div>
+
+        <div className='Triwize-caller'>
+            .Triwa
+        </div>
+
+
+
+
+          </div>
+      </div>
+    </>
+  )
+}
+
+export default Header1

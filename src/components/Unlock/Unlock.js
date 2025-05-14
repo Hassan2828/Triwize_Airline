@@ -13,6 +13,7 @@ const Unlock = () => {
       >
         Launch demo modal
       </button>
+      
       <div
         class="modal fade"
         id="exampleModal"
@@ -75,7 +76,8 @@ const Unlock = () => {
                 class="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-              ></button>
+              >
+              </button>
               <img src={parashot} alt="" />
             </div>
           </div>

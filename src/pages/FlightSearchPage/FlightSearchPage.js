@@ -1,5 +1,5 @@
 import React from 'react';
-import './Flight.css';
+import './FlightSearchPage.css';
 
 import RoundTrip from "../../components/Round-Trip/RoundTrip.js";
 import OfferCard from "../../components/OfferCard/OfferCard.js";
@@ -21,13 +21,15 @@ import EmiratesTicketProps from "../../components/EmiratesTicket/EmiratesTicketP
 import Banner from "../../components/Banner/Banner.js";
 import ShareDetails from '../../components/ShareDetails/ShareDetails.js';
 import Unlock from '../../components/Unlock/Unlock.js';
+import FlightBanner from '../../components/FlightSearchBanner/FlightBanner.jsx';
 
 
-const Flight = () => {
+const FlightSearchPage = () => {
   return (
     <>
-    <Unlock />
-    <Banner />
+    {/* <Unlock /> */}
+    {/* <Banner /> */}
+    <FlightBanner />
     <RoundTrip />
     <OfferCard />
     <BestDealProps />
@@ -50,4 +52,4 @@ const Flight = () => {
   )
 }
 
-export default Flight
+export default FlightSearchPage
